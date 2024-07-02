@@ -1,6 +1,7 @@
 # Inkbloom
 
 Inkbloom is a bookstore web application under development, aimed at providing users with a seamless browsing experience for discovering and purchasing books online. It integrates MongoDB, Express.js, React.js, Node.js, Tailwind CSS, Axios, React Router, and Nodemailer to deliver a modern and responsive platform.
+<br>
 (UNDER DEVELOPMENT)
 
 ## Features
