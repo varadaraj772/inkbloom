@@ -17,7 +17,7 @@ Inkbloom is a bookstore web application under development, aimed at providing us
 1. Clone the repository & start frontend development server:
 
    ```bash
-   git clone [<repository-url>](https://github.com/varadaraj772/inkbloom.git)
+   git clone https://github.com/varadaraj772/inkbloom.git
    cd inkbloom
    cd frontend
    npm install
