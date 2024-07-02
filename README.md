@@ -1,6 +1,7 @@
 # Inkbloom
 
 Inkbloom is a bookstore web application under development, aimed at providing users with a seamless browsing experience for discovering and purchasing books online. It integrates MongoDB, Express.js, React.js, Node.js, Tailwind CSS, Axios, React Router, and Nodemailer to deliver a modern and responsive platform.
+(UNDER DEVELOPMENT)
 
 ## Features
 
@@ -12,12 +13,18 @@ Inkbloom is a bookstore web application under development, aimed at providing us
 
 ## Setup Instructions
 
-1. Clone the repository:
+1. Clone the repository & start frontend development server:
 
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/varadaraj772/inkbloom.git)
    cd inkbloom
    cd frontend
    npm install
    npm run dev
+   ```
+2. Open new terminal and start backend server:
+   ```bash
+   cd backend
+   npm install
+   npm start
    ```
