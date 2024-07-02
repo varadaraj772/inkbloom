@@ -19,8 +19,8 @@ const URI = process.env.MongoDBURI;
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "dailyquotes2777@gmail.com",
-    pass: "dailyqq87",
+    user: "",
+    pass: "",
   },
 });
 
@@ -41,7 +41,7 @@ app.post("/sendemail", (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: "dailyquotes2777@gmail.com",
+    to: "",
     subject: `Contact Form Submission from ${name}`,
     text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
   };
